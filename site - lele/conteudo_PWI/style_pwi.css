@@ -1,0 +1,97 @@
+:root{
+  --cor-roxoescuro: #61469c;
+  --cor-roxoclaro:#86449a;
+  --cinza-escurao: #B4B4B8;
+  --cinza-escuro: #C7C8CC;
+  --cinza-claro: #E3E1D9;
+  --cinza-clarao: #F2EFE5;
+}
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+body{
+  background: #F2EFE5;
+  max-width: 1200px;
+  margin: auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+.titulo{
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 50px;
+  font-size: 1.2rem;
+  color: var(--cor-roxoescuro);
+}
+
+.titulo img{
+  display: block;
+  max-width: 30px;
+}
+
+.barra ul{
+  display: flex;
+  list-style: none;
+  padding: 0px;
+  gap: 20px;
+}
+
+.introducao img{
+  display: block;
+  width: 600px;
+  height: 500px;
+  border-radius: 20px;
+  background: #B4B4B8;
+}
+
+.introducao{
+  display: grid;
+  max-width: 1100px;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  margin: auto;
+  position: relative;
+}
+
+.textos{
+  display: grid;
+  position: absolute;
+  border-radius: 20px;
+  padding: 90px 35px 95px 30px;
+  left: 550px;
+  gap: 48px;
+  background: white;
+}
+
+.textos h2{
+  font-size: 3rem;
+}
+
+.textos p{
+  font-size: 1.1rem;
+  color: var(--cinza-escurao);
+}
+
+.textos span{
+  color: var(--cor-roxoclaro)
+}
+
+.btncont{
+  display: flex;
+  justify-content: end;
+}
+
+.btncont a{
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin: 10px 10px;
+  background: var(--cor-roxoescuro);
+  color: white;
+
+}
