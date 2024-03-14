@@ -14,7 +14,7 @@
 
 body{
   background: #F2EFE5;
-  max-width: 1200px;
+  max-width: 1100px;
   margin: auto;
 }
 
@@ -25,9 +25,23 @@ a{
 .titulo{
   display: flex;
   justify-content: space-between;
-  margin: 20px 50px;
+  margin: 20px 40px;
   font-size: 1.2rem;
+  position: relative;
+}
+
+.titulo a{
   color: var(--cor-roxoescuro);
+}
+
+.titulo a ::before{
+  content: " ";
+  position: absolute;
+  width: 30px;
+  height: 6px;
+  background: var(--cor-roxoescuro);
+  left: 75px;
+  bottom: 8px;
 }
 
 .titulo img{
@@ -35,19 +49,12 @@ a{
   max-width: 30px;
 }
 
-.barra ul{
-  display: flex;
-  list-style: none;
-  padding: 0px;
-  gap: 20px;
-}
-
 .introducao img{
   display: block;
   width: 600px;
   height: 500px;
   border-radius: 20px;
-  background: #B4B4B8;
+  background: var(--cinza-escurao);
 }
 
 .introducao{
@@ -63,7 +70,7 @@ a{
   display: grid;
   position: absolute;
   border-radius: 20px;
-  padding: 90px 35px 95px 30px;
+  padding: 90px 35px 210px 30px;
   left: 550px;
   gap: 48px;
   background: white;
@@ -83,15 +90,34 @@ a{
 }
 
 .btncont{
-  display: flex;
-  justify-content: end;
+  position: absolute;
+  bottom: 120px;
+  right: 67px
 }
 
 .btncont a{
   padding: 15px 20px;
   border-radius: 8px;
-  margin: 10px 10px;
+  margin: 10px 16px;
   background: var(--cor-roxoescuro);
   color: white;
+  transition: 0.3s;
+}
 
+.btncont a:hover{
+  transform: scale(0.90);
+  color: var(--cor-roxoescuro);
+  border: 1px solid var(--cor-roxoescuro);
+  background: var(--cinza-escuro);
+}
+
+#tituloajax{
+  text-align: center;
+  margin: 70px 0px 35px 0px;
+  font-size: 1.8rem;
+  color: var(--cor-roxoclaro);
+}
+
+.part2{
+  background: white;
 }
