@@ -82,7 +82,7 @@ nav ul li:hover {
 
 #titulo1{
   margin: auto;
-  color: var(--cor-azulescuro)
+  color: var(--cor-azulescuro);
 }
 
 .grid{
@@ -189,6 +189,57 @@ nav ul li:hover {
   margin: 0px 40px 10px 40px;
   color: var(--cor-azulescuro);
 }
+
+/*---section 4---*/
+
+#titulorede{
+  text-align: center;
+  margin: 20px 0px 35px 0px;
+  color: var(--cor-azulescuro)
+}
+
+.conteudo4{
+  margin: auto;
+}
+
+.conteudo4 img{
+  display: block;
+  max-width: 280px;
+  justify-self: center;
+}
+
+.conteudo4{
+  display: grid;
+  background: white;
+  border-radius: 8px;
+  max-width: 800px;
+  gap: 8px;
+  box-shadow: 0px 0px 70px 2px rgba(0, 0, 0, 0.1);
+}
+
+.conteudo4 p{
+  margin: 0px 40px 20px 40px;
+  line-height: 1.4;
+}
+
+.conteudo4 span{
+  color: var(--cor-azulclaro);
+}
+
+.conteudo4 h3{
+  margin: 0px 40px 10px 40px;
+  color: var(--cor-azulescuro);
+}
+
+.conteudo4 ul{
+  margin: 0px 40px
+}
+
+.conteudo4 li{
+  padding: 0px 0px 20px 0px; 
+}
+
+
 
 
 
